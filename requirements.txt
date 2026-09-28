@@ -1,0 +1,18 @@
+# Quản lý phòng khách sạn bằng Streamlit
+
+## Cài thư viện
+pip install streamlit pandas
+
+## Chạy chương trình
+streamlit run app.py
+
+Ứng dụng gồm:
+- Tổng quan khách sạn
+- Quản lý 30 phòng
+- Đặt phòng
+- Nhận phòng / trả phòng
+- Tính tiền theo số đêm
+- Thống kê doanh thu
+- Xuất báo cáo CSV
+
+Lưu ý: dữ liệu hiện được lưu trong session của Streamlit, phù hợp cho bài demo/thực hành. Khi triển khai thật nên dùng SQLite/MySQL/PostgreSQL.
