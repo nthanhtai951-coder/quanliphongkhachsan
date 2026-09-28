@@ -315,5 +315,3 @@ elif menu == "👤 Nhận / trả phòng":
                     ] = "Đang ở"
 
                 st.success(f"Phòng {selected} đã nhận khách.")
-
-    with col2:
